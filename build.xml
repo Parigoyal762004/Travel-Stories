@@ -1,0 +1,26 @@
+<project name="TestNG-XSLT-Report" default="generate-report">
+
+    <!-- Clean previous output -->
+    <target name="clean">
+        <delete dir="test-output"/>
+        <delete file="report.html"/>
+    </target>
+
+    <!-- Run TestNG -->
+    <target name="run-tests">
+        <mkdir dir="test-output"/>
+        <taskdef name="testng" classname="org.testng.TestNGAntTask" classpath="lib/testng.jar"/>
+        <testng outputdir="test-output" classpath="bin" suitename="Parallel Tests" verbose="2">
+            <xmlfileset dir="." includes="testng.xml"/>
+        </testng>
+    </target>
+
+    <!-- Transform XML to HTML -->
+    <target name="generate-report" depends="run-tests">
+        <xslt 
+            in="test-output/testng-results.xml"
+            style="report.xsl"
+            out="report.html"/>
+    </target>
+
+</project>
