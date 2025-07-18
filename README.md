@@ -41,4 +41,12 @@ with a sprinkle of code and a lot of ✨soul✨.
 
 
 
-<img width="960" height="504" alt="Screenshot 2025-07-18 1536" src="https://github.com/user-attachments/assets/91cef4c2-54fb-421e-a63c-a3d72c06a299" />
+---
+demo pictures
+<img width="960" height="504" alt="Screenshot 2025-07-18 1536" src="https://github.com/user-attachments/assets/6f4e558d-af06-4073-bbdf-c6fa89e97e00" />
+<img width="960" height="504" alt="Screenshot 2025-07-18 1" src="https://github.com/user-attachments/assets/ff7230d7-1968-4599-940e-bff0cd3c4935" />
+<img width="960" height="504" alt="Screenshot 2025-07-18 153" src="https://github.com/user-attachments/assets/7e1d87c1-0162-40af-a463-2e6d9683e972" />
+
+
+
+
